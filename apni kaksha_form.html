@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <style>
+    .cool{
+    background-color: rgb(136, 180, 13);
+    padding: 20px ;
+    text-align: left;
+    color: white;
+    border-radius: 10px ;
+    width: 80%;
+    line-height: 0.5px;
+    padding-bottom: 1px;
+    
+    
+}
+.cool h5{
+    font-size: large;
+    text-align: left;
+    padding: none;
+    text-decoration: white;
+}
+.hot{
+background-color: #f2f2f2;
+border-radius: 2px;
+padding: 20px 20px;
+border-radius: 10px;
+width: 80%;
+}
+input[type="submit"]{
+    background-color: rgb(68, 92, 4)
+    ;padding: 10px 25px ;
+    color: white;
+    margin-left: 30px;
+    border-radius: 4px;
+    border: none;
+     margin-right:30px ;
+     cursor: pointer;
+
+}
+*{
+    padding-left: 20px;
+    font-family: cursive;
+    font-weight: lighter;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    
+    
+}
+.nice{
+    width: 200%;
+}
+input[type="text"],input[type="email"]{
+    width: 96%;
+}
+.good{
+    width: 96%;
+}
+  </style>
+</head>
+<body>
+    <div class="cool">
+    <h1 >Contact Form</h1> <h5>Please fill all the texts in the fields.</h5>
+    </div>
+    
+    <div class="hot">
+    <p>Your Name : <br><input type="text" name="Your Name:" required placeholder="Your Full Name" ></p>
+    <p>Your Email : <br><input type="email" name="Your Email:" required placeholder="Valid Email Address"></p>
+  <p>Message: <br> <textarea class="good" name="Message:" id="" cols="30" rows="10"placeholder="Your Message to us"></textarea></p>
+    <p>Subject : <br> <input class="nice" type="text" name="Subject:" placeholder="Job Inquiry" required></p>
+    <input type="submit" value="Send" class="dumb"></div>
+</body>
+</html>
